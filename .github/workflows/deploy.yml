@@ -6,7 +6,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    setps:
+    steps:
       - uses: actions/checkout@v3 # 第三方的action 作用：拉取代码
       - name: create a folder # 创建文件夹
       - run: mkdir test-folder
