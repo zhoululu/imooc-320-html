@@ -20,9 +20,7 @@ jobs:
            # 注意：服务器已经克隆代码到 /root/myblog/imooc-320-html 目录
 
            cd /root/myblog/imooc-320-html;
-           git checkout .;
-           git checkout main;
-           git pull; # 重新下载最新的代码
+           touch aaa.txt;
 
            # 重启服务
           "
